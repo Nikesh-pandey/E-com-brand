@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+  font-family: "Roboto", serif;
+
+}
+
+.Maindiv {
+  background-color: darkcyan;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  height: 60px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;  /* Add some spacing */
+  z-index: 1000;  /* Ensure it stays above other elements */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.Maindiv ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.log-in {
+  border-radius: 7px;
+  background-color: rgb(234, 30, 30);
+}
+
+/* Push content down so it doesn't get hidden behind fixed navbar */
+.body-main-div {
+   margin-top: 3%; /* Adjust to navbar height */
+  background-color: rgb(228, 220, 209);
+}
+
+
+
+
+.main-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+
+  flex-direction: row;
+
+
+}
+.body-text-div{
+  /* background-color: rgb(155, 141, 141); */
+  border-radius: 2px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.text {
+  margin-top: 2%;
+  font-family: "Roboto", sans-serif; /* Use sans-serif instead of serif */
+  font-optical-sizing: auto;
+  font-weight: 1000; /* Change weight as needed */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 35px;
+  padding-bottom: 20px;
+  width: 250px;
+}
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+margin-left: 10px;
+}
+.shop{
+background-color: rgb(234, 30, 30);
+  width: 100px;
+border-radius: 7px;
+
+}
+
+.body-shoe-div{
+  /* background-color: aquamarine; */
+  padding-right: 100px;
+  height: 500px;
+
+  width: 500px;
+}
+.brands{
+  display: flex;
+  gap: 30px;
+  margin-left: 10px;
+}
+
+/* footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  max-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #ccc;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+input[type="email"] {
+  padding: 8px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 5px;
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
